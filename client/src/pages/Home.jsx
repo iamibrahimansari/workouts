@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch('http://localhost:4000/api/workouts', {
+      const response = await fetch('https://workouts-backend-sm13.onrender.com/api/workouts', {
         headers: {'Authorization': `Bearer ${user.token}`},
       })
       const json = await response.json()

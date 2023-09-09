@@ -7,7 +7,7 @@ const workoutRoutes = require('./routes/workouts')
 const userRoutes = require('./routes/user')
 
 const corsOrigin = {
-  origin: 'http://localhost:5173',
+  origin: 'https://workouts-qvfl.onrender.com',
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   allowHeaders: ['Content-Type']
 }
